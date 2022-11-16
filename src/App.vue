@@ -201,14 +201,22 @@ const updateLanguage = (lang) => {
         .container__text
           max-width: 210px
           text-align: center
-          text-justify: center
+          display: flex
+          align-items: center
+          justify-content: center
           .text__title
             font-size: 20px
             line-height: 24px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
           .text__body
             font-size: 20px
             line-height: 24px
           .text__mutated
+            margin-top: 5px
+            min-width: 240px
             font-size: 30px
             line-height: 37px
         .register

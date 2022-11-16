@@ -146,8 +146,8 @@ export default {
           font-size: 16px
           line-height: 20px
           font-weight: 600
-          font-size: 16px
-          line-height: 20px
+          font-size: 14px
+          line-height: 14px
           letter-spacing: 0.01em
           max-width: 153px
           // text-align: center
