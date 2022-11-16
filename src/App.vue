@@ -9,11 +9,15 @@
       />
       <div class="container__body">
         <div class="container__text">
+          <div class="text__body"></div>
           <div class="text__title">
-            {{ store.languages[currentLanguage].interface.landing.title }}
-          </div>
-          <div class="text__body">
-            {{ store.languages[currentLanguage].interface.landing.body }}
+            <span class="text__mutated">
+              {{ store.languages[currentLanguage].interface.landing.body[0] }}
+            </span>
+            {{ store.languages[currentLanguage].interface.landing.body[1] }}
+            <span class="text__mutated">
+              {{ store.languages[currentLanguage].interface.landing.body[2] }}
+            </span>
           </div>
         </div>
         <FooterComponent
@@ -129,24 +133,33 @@ const updateLanguage = (lang) => {
       justify-content: space-between
       .container__text
         display: flex
-        flex-direction: column
+        flex-direction: row
         font-family: 'Montserrat'
         font-style: normal
         max-width: 685px
+        gap: 10px
         .text__title
-          font-weight: 600
-          font-size: 30px
-          line-height: 37px
+          font-weight: 900
+          font-size: 40px
+          line-height: 49px
           letter-spacing: 0.01em
           text-transform: uppercase
-          color: #B9C6D6
+          // color: #B9C6D6
+          color: #FFFFFF
         .text__body
+          display: flex
+          flex-direction: row
+          flex-wrap: nowrap
           font-weight: 900
           font-size: 40px
           line-height: 49px
           letter-spacing: 0.01em
           text-transform: uppercase
           color: #FFFFFF
+        .text__mutated
+          font-weight: 900
+          font-size: 60px
+          line-height: 73px
       .register
         align-self: flex-end
 @media (max-width: 1010px)
@@ -161,11 +174,14 @@ const updateLanguage = (lang) => {
           max-width: 425px
           gap: 20px
           .text__title
-            font-size: 24px
-            line-height: 29px
+            font-size: 30px
+            line-height: 37px
           .text__body
             font-size: 30px
             line-height: 37px
+          .text__mutated
+            font-size: 40px
+            line-height: 49px
 @media (max-width: 750px)
   .main__container
     background: url('./assets/bg_mobile.jpg')
@@ -187,11 +203,14 @@ const updateLanguage = (lang) => {
           text-align: center
           text-justify: center
           .text__title
-            font-size: 14px
-            line-height: 17px
+            font-size: 20px
+            line-height: 24px
           .text__body
             font-size: 20px
             line-height: 24px
+          .text__mutated
+            font-size: 30px
+            line-height: 37px
         .register
           align-self: center
         // .footer__mobile
