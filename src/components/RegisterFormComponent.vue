@@ -751,8 +751,9 @@ export default {
 
   &__login
     display: flex
-    gap: 9px
+    gap: 19px
     justify-content: center
+    white-space: nowrap
     .login__title
       font-family: 'Montserrat'
       font-style: normal
