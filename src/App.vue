@@ -129,7 +129,7 @@ const updateLanguage = (lang) => {
       width: 100%
       display: flex
       flex-direction: row
-      align-items: center
+      align-items: flex-start
       justify-content: space-between
       .container__text
         display: flex
@@ -138,6 +138,7 @@ const updateLanguage = (lang) => {
         font-style: normal
         max-width: 685px
         gap: 10px
+        margin-top: 5rem
         .text__title
           font-weight: 900
           font-size: 40px
@@ -173,6 +174,7 @@ const updateLanguage = (lang) => {
         .container__text
           max-width: 425px
           gap: 20px
+          margin-top: 0
           .text__title
             font-size: 30px
             line-height: 37px
