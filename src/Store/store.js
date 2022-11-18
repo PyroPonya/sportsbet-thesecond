@@ -67,7 +67,7 @@ const useStore = {
         },
         landing: {
           title: 'MORE THAN 1000 EVENTS DAILY WITH HIGHEST ODDS!',
-          body: ['50% FREE BET ', 'ON THE FIRST DEPOSIT UP TO ', '100€'],
+          body: 'REGISTER NOW AND GET 50% FREE BET ON YOUR FIRST DEPOSIT UP TO 100€',
           footer: {
             title: 'How to get bonus?',
             steps: ['Register on the site', 'Make a deposit', 'Get your bonus'],
@@ -142,7 +142,7 @@ const useStore = {
         },
         landing: {
           title: 'MORE THAN 1000 EVENTS DAILY WITH HIGHEST ODDS!',
-          body: ['50% FREE BET ', 'ON THE FIRST DEPOSIT UP TO ', '160 AUD'],
+          body: 'REGISTER NOW AND GET 50% FREE BET ON YOUR FIRST DEPOSIT UP TO 160 AUD',
           footer: {
             title: 'How to get bonus?',
             steps: ['Register on the site', 'Make a deposit', 'Get your bonus'],
@@ -217,7 +217,7 @@ const useStore = {
         },
         landing: {
           title: 'MORE THAN 1000 EVENTS DAILY WITH HIGHEST ODDS!',
-          body: ['50% FREE BET ', 'ON THE FIRST DEPOSIT UP TO ', '140 CAD'],
+          body: 'REGISTER NOW AND GET 50% FREE BET ON YOUR FIRST DEPOSIT UP TO 140 CAD',
           footer: {
             title: 'How to get bonus?',
             steps: ['Register on the site', 'Make a deposit', 'Get your bonus'],
@@ -292,7 +292,7 @@ const useStore = {
         },
         landing: {
           title: 'MORE THAN 1000 EVENTS DAILY WITH HIGHEST ODDS!',
-          body: ['50% FREE BET ', 'ON THE FIRST DEPOSIT UP TO ', '175 NZD'],
+          body: 'REGISTER NOW AND GET 50% FREE BET ON YOUR FIRST DEPOSIT UP TO 175 NZD',
           footer: {
             title: 'How to get bonus?',
             steps: ['Register on the site', 'Make a deposit', 'Get your bonus'],
@@ -371,7 +371,7 @@ const useStore = {
         },
         landing: {
           title: 'MEHR ALS 1000 TÄGLICHE EREIGNISSE MIT HÖCHSTEN QUOTEN!',
-          body: ['50% BONUS ', 'BIS ZU ', '100€'],
+          body: 'REGISTRIEREN SIE SICH JETZT UND ERHALTEN SIE 50% KOSTENLOSE WETTE AUF IHRE ERSTE EINZAHLUNG BIS ZU 100€',
           footer: {
             title: 'Wie bekomme ich einen Bonus?',
             steps: [

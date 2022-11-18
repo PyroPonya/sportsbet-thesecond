@@ -751,7 +751,7 @@ export default {
 
   &__login
     display: flex
-    gap: 19px
+    gap: 9px
     justify-content: center
     white-space: nowrap
     .login__title
